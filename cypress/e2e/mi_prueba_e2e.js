@@ -1,8 +1,6 @@
-describe('Prueba E2E', () => {
+describe('Prueba E2E B', () => {
   it('Visita la página de inicio', () => {
     cy.visit('https://buggy.justtestit.org/');
-    cy.contains('Buggy
-Cars
-Rating');
+    cy.contains('Buggy Rating');
   });
 });
